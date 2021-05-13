@@ -38,6 +38,7 @@ MainWindow::MainWindow(QWidget *parent)
     QDateTimeAxis *axisX = new QDateTimeAxis;
     axisX->setFormat("yyyy-MM-dd");
     axisX->setTickCount(2);
+    axisX->setLabelsAngle(-45);
 
     QValueAxis *axisY = new QValueAxis;
     axisY->setTitleText("fdafdsa");
